@@ -10,9 +10,4 @@ This is a simple chat bot implemented in Python that interacts with users, retri
 - **Get Answer for Question**: Retrieve the answer for a given question from the knowledge base.
 - **Interactive Chat**: Engage in an interactive chat session with the user, responding to their queries and learning new responses.
 
-## Usage
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your_username/your_repository.git
