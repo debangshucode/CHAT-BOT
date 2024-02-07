@@ -1,24 +1,18 @@
-Chat Bot
-This is a simple chat bot implemented in Python that interacts with users by answering questions based on a predefined knowledge base. The chat bot uses fuzzy string matching to find the closest match to the user's input question and provides an appropriate response.
+# Chat Bot Documentation
 
-Features
-Question Matching: Utilizes fuzzy string matching to find the best match for user input questions.
-Knowledge Base: Stores questions and answers in a JSON file for easy retrieval and updating.
-Interactive: Allows users to teach the chat bot new responses for questions it doesn't know.
-Usage
-Installation: Clone the repository to your local machine:
+This is a simple chat bot implemented in Python that interacts with users, retrieves answers from a knowledge base, and learns new responses based on user input.
 
-bash
-Copy code
-git clone https://github.com/your-username/chat-bot.git
-Dependencies: Ensure you have Python 3 installed on your system. Install the required Python packages:
+## Features
 
-bash
-Copy code
-pip install -r requirements.txt
-Running the Chat Bot: Run the chat_bot.py script:
+- **Load Knowledge**: Load existing knowledge base from a JSON file.
+- **Save Knowledge**: Save updated knowledge base to a JSON file.
+- **Find Best Match**: Utilize difflib's `get_close_matches` to find the best matching question from the knowledge base.
+- **Get Answer for Question**: Retrieve the answer for a given question from the knowledge base.
+- **Interactive Chat**: Engage in an interactive chat session with the user, responding to their queries and learning new responses.
 
-bash
-Copy code
-python chat_bot.py
-Interaction: Start interacting with the chat bot by typing your questions. Type quit to exit.
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your_username/your_repository.git
